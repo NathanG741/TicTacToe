@@ -14,9 +14,7 @@ public class Board {
 
     public Boolean isInFavorOfX() {
 
-
         return checkRow('X') || checkColumn('X') || checkDiagonal ('X') || checkOtherDiagonal ('X');
-
     }
 
     public boolean checkRow(Character letter){
